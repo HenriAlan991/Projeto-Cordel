@@ -4,4 +4,26 @@
 }
 html, body{
     min-height: 100vh;
+    background-color: darkgrey;
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header > h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+header > p{
+    padding-bottom: 50px;
+}
+header > p{
+    margin-top: 4px;
+    font-weight: 100;
+}
+header > p > span > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
 }
