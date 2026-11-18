@@ -1,27 +1,46 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: var(--fonte-principal);
 }
 html, body{
     min-height: 100vh;
     background-color: darkgrey;
+    overflow-x: hidden
 }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Agrave+Pro:wght@100..700&family=Bebas+Neue&family=Passion+One:wght@400;700;900&display=swap');
+
+:root{
+    --fonte-principal: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte-titulo: "Bebas Neue";
+    --fonte-conteudo: "Agrave Pro";
+}
+
 header{
     background-color: black;
     color: white;
     text-align: center;
+    
 }
 header > h1{
     padding-top: 50px;
+    font-size: 10vw;
+    letter-spacing: 4px;
     font-variant: small-caps;
+    font-family: var(--fonte-titulo);
 }
 header > p{
     padding-bottom: 50px;
+    
 }
 header > p{
     margin-top: 4px;
     font-weight: 100;
+    font-size: 1.5vw;
 }
+
 header > p > span > a{
     text-decoration: none;
     color: white;
@@ -37,7 +56,8 @@ section.background-image{
 .background-image > div.content > p{
     background-color: rgba(0,0,0, 0.253);
     color: white;
-    width: 400px;
+    width: fit-content;
+    padding: 10px;
 }
 section.paragrafo{
     padding: 12vh 0;
@@ -45,6 +65,7 @@ section.paragrafo{
 }
 div.content > p{
     line-height: 2em;
+    font-family: var(--fonte-conteudo);
 }
 footer{
     text-align: center;
@@ -52,11 +73,11 @@ footer{
     color: white;
     padding: 8px;
     
-    
 }
 footer > p{
-    font-size: 20px;
+    font-size: 1.25vw;
 }
 footer > p > span{
     font-weight: 700;
+    
 }
