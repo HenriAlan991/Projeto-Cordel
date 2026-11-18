@@ -27,3 +27,36 @@ header > p > span > a{
     color: white;
     font-weight: bold;
 }
+section.paragrafo{
+    background-color: white;
+    border: 1px solid blue;
+}
+section.background-image{
+    background-color: rgb(51,51,51);
+}
+.background-image > div.content > p{
+    background-color: rgba(0,0,0, 0.253);
+    color: white;
+    width: 400px;
+}
+section.paragrafo{
+    padding: 12vh 0;
+    padding-left: 4vw;
+}
+div.content > p{
+    line-height: 2em;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 8px;
+    
+    
+}
+footer > p{
+    font-size: 20px;
+}
+footer > p > span{
+    font-weight: 700;
+}
