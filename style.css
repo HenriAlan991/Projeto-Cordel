@@ -55,13 +55,14 @@ section.background-image{
 }
 .background-image > div.content > p{
     background-color: rgba(0,0,0, 0.253);
+    text-shadow: 1px 1px 0px black;
     color: white;
     width: fit-content;
     padding: 10px;
 }
 section.paragrafo{
     padding: 12vh 0;
-    padding-left: 4vw;
+    padding: 4vw;
 }
 div.content > p{
     line-height: 2em;
@@ -81,3 +82,21 @@ footer > p > span{
     font-weight: 700;
     
 }
+section.background-image{
+    box-shadow: inset 6px 6px 13px 0px rgba(0,0,0,0.473);
+}
+section.background-image.paragrafo2{
+    background-color: red;
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+section.background-image.paragrafo5{
+    background-color: blue;
+    background-image: url(imagens/background002.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
